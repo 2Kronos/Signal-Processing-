@@ -1,5 +1,6 @@
 
-![[Pasted image 20240916230518.png]]
+![image](https://github.com/user-attachments/assets/9fee5aa9-5709-4583-aa1c-0c61cf49df7a)
+
 
 $$ 
 \begin{align}
