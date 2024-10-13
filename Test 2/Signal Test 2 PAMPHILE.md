@@ -1,4 +1,56 @@
 ![[Pasted image 20240930235508.png]]
+![[Pasted image 20241012193655.png]]
+
+# Voltage divider rule
+$X_L =wL$
+$X_c = \frac{1}{wc}$
+$X_c =2\pi f$
+## RC circuit
+
+$$
+\begin{align}
+V_R =V_{in} \times \frac{R}{\sqrt{R^2+X_L^2}}
+\end{align}
+$$
+$$
+\begin{align}
+V_C =V_{in} \times \frac{X_c}{\sqrt{R^2+X_C^2}}
+\end{align}
+$$
+# RL Circuit
+
+$$
+\begin{align}
+V_R =V_{in} \times \frac{R}{\sqrt{R^2+X_L^2}}
+\end{align}
+$$
+$$
+\begin{align}
+V_L =V_{in} \times \frac{X_L}{\sqrt{R^2+X_L^2}}
+\end{align}
+$$
+# RLC Circuit
+
+$$
+Z =\sqrt{R^2+(X_L-x_c)^2}
+$$
+$$
+\begin{align}
+V_R =V_{in} \times \frac{R}{Z}
+\end{align}
+$$
+$$
+\begin{align}
+V_L =V_{in} \times \frac{X_L}{Z}
+\end{align}
+$$
+$$
+\begin{align}
+V_C =V_{in} \times \frac{X_C}{Z}
+\end{align}
+$$
+
+# Question 5
 ![[Pasted image 20240930212803.png]]
 
 $$
@@ -76,11 +128,78 @@ y(n)\ =\ - (240)(0.8)^n\ +\ 16 n(0.8)^n + (240)(0.75)^n \\\\
 
 y(n)\ =\ - (240)(0.8)^{11}\ +\ 16 (11)(0.8)^{11} + (240)(0.75)^{11}\\\\
 
-y(n)\ =\ 4.38874\\\\
+y(n)\ =\ 4.6388\\\\
 
-\int
 
 
 \end {align}
 $$
 
+# Question 2 
+
+![[Pasted image 20241012121147.png]]
+
+$$
+\begin{align}
+B_{wf} = \frac{1}{T}= \frac{1}{16.3us}=61.3KHZ
+\end{align}
+$$
+# Question 1
+
+![[Pasted image 20241012123030.png]]
+$$
+\begin{align}
+
+|f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
+f(t) =te^{-at} \leftrightarrow F(jw) =(\frac{1}{a+jw})^2      \\\\
+w =2\pi f \\\\
+w= 2(\pi)(1.69) =10.6185 \\\\
+
+f(t) = 100te^{-043t}.\\ \\
+F(jw)= 100(\frac{1}{0.43+jw})^2\\\\
+F(jw)= 100(\frac{1}{0.43+10.6185j})^2\\\\
+let\ z = 0.43 +10.6185j \\\\\
+|z| = \sqrt{(0.43)^2+(10.6185)^2}\\\\
+|z| = 10.6272\\\\
+|F(jw)|= 100(\frac{1}{10.6272})^2\\\\
+|F(jw)|=0.885 \\\\
+
+\end{align}
+$$
+
+# Question 6
+
+![[Pasted image 20241012210452.png]]
+$$
+\begin{align}
+
+w=2\pi f\\\\
+w=2\pi (6.7k)\\\\
+w=13400\pi\\\\
+X_c = \frac{1}{wc}\\\\
+X_c = \frac{1}{13400\pi (7uf)}\\\\
+X_c = 3.3934\\\\
+V_C =V_{in} \times \frac{X_c}{\sqrt{R^2+X_C^2}}\\\\
+V_C =37 \times \frac{3.3934}{\sqrt{3^2+(3.3934)^2}}\\\\
+V_C =27.720\\\\
+\end{align}
+$$
+# Question 7
+
+![[Pasted image 20241012222832.png]]$$
+\begin{align}
+V_{in} =tu(t)\\\\
+V_{R} =IR\\\\
+V_{C} =\frac{1}{c}\int^{t}_{0}i(t) \\\\
+V_{in}= IR+\frac{1}{c}\int^{t}_{0}i(t)\\\\
+L(tu(t))=L(i(t))+L(\frac{1}{c}\int^{t}_{0}i(t))\\\\
+\frac{1}{s^2}=I(s)R+\frac{1}{c}\times \frac{I(s)}{s}\\\\
+pull\ out I(s)\\\\
+\frac{1}{s^2}=I(s)(R+ \frac{1}{cs})\\\\
+I(s) = \frac{1}{s^2}\times \frac{cs}{csR+1}\\\\
+I(s) =  \frac{c}{s^2(cR+1)}\\\\
+V_{out}=\frac{1}{c}I(s)\\\\
+V_{out}=\frac{1}{c}\times \frac{c}{s^2(cR+1)}\\\\
+V_{out}=\frac{1}{s^2(cR+1)}\\\\
+\end{align}
+$$
