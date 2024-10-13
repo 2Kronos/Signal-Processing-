@@ -2,8 +2,8 @@
 # Question 1
 
 ![[Pasted image 20241012123030.png]]
-$$
-\begin{align}
+
+$$\begin{align}
 |f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
 f(t) =te^{-at} \leftrightarrow F(jw) =(\frac{1}{a+jw})^2      \\\\
 w =2\pi f \\\\
@@ -16,8 +16,7 @@ let\ z = 0.43 +10.6185j \\\\\
 |z| = 10.6272\\\\
 |F(jw)|= 100(\frac{1}{10.6272})^2\\\\
 |F(jw)|=0.885 \\\\
-\end{align}
-$$
+\end{align}$$
 # Question 2 
 
 ![[Pasted image 20241012121147.png]]
