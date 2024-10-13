@@ -1,11 +1,7 @@
-
 <<<<<<< HEAD
-![[Pasted image 20241012123030.png]]
-=======
 # Question 1
-![Pasted image 20241012121147](https://github.com/user-attachments/assets/6578c816-ae59-4605-90c0-6c15b2ad4d5a)
 
->>>>>>> b321e43b2e71eced32f6699abca7a12c6cc29676
+![[Pasted image 20241012123030.png]]
 $$\begin{align}
 |f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
 f(t) =te^{-at} \leftrightarrow F(jw) =(\frac{1}{a+jw})^2      \\\\
@@ -113,7 +109,7 @@ $y(n) = 4.6388$
 
 
 # Question 6
-![[Pasted image 20241013140110.png]]
+
 
 $w = 2\pi f$
 
