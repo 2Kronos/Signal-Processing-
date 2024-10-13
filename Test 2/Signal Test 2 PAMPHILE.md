@@ -2,8 +2,7 @@
 # Question 1
 
 ![[Pasted image 20241012123030.png]]
-$$
-\begin{align}
+$$\begin{align}
 |f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
 f(t) =te^{-at} \leftrightarrow F(jw) =(\frac{1}{a+jw})^2      \\\\
 w =2\pi f \\\\
@@ -16,8 +15,7 @@ let\ z = 0.43 +10.6185j \\\\\
 |z| = 10.6272\\\\
 |F(jw)|= 100(\frac{1}{10.6272})^2\\\\
 |F(jw)|=0.885 \\\\
-\end{align}
-$$
+\end{align}$$
 # Question 2 
 
 ![[Pasted image 20241012121147.png]]
@@ -31,34 +29,6 @@ $$
 
 # Question 5
 ![image](https://github.com/user-attachments/assets/d3306052-1ae8-4e24-b67f-e740b4d6fe45)
-=======
-# Voltage Divider Rule
-
-$X_L = wL$
-
-$X_C = \frac{1}{wC}$
-
-# RC Circuit
-
-$V_R = V_{in} \times \frac{R}{\sqrt{R^2 + X_L^2}}$
-
-$V_C = V_{in} \times \frac{X_C}{\sqrt{R^2 + X_C^2}}$
-
-# RL Circuit
-
-$V_R = V_{in} \times \frac{R}{\sqrt{R^2 + X_L^2}}$
-
-$V_L = V_{in} \times \frac{X_L}{\sqrt{R^2 + X_L^2}}$
-
-# RLC Circuit
-
-$Z = \sqrt{R^2 + (X_L - X_C)^2}$
-
-$V_R = V_{in} \times \frac{R}{Z}$
-
-$V_L = V_{in} \times \frac{X_L}{Z}$
-
-$V_C = V_{in} \times \frac{X_C}{Z}$
 
 # Question 5
 
@@ -135,40 +105,11 @@ $y(n) = - (240)(0.8)^{11} + 16 (11)(0.8)^{11} + (240)(0.75)^{11}$
 
 $y(n) = 4.6388$
 
-# Question 2
 
-$B_{wf} = \frac{1}{T} = \frac{1}{16.3us} = 61.3kHz$
-
-<<<<<<< HEAD
-
-# Question 1
-
-$|f(jw)| = \sqrt{(Re[F(jw)])^2 + (Im[F(jw)])^2}$
-
-$f(t) = te^{-at} \leftrightarrow F(jw) = (\frac{1}{a + jw})^2$
-
-$w = 2\pi f$
-
-$w = 2(\pi)(1.69) = 10.6185$
-
-$f(t) = 100te^{-0.43t}$
-
-$F(jw) = 100(\frac{1}{0.43 + jw})^2$
-
-$F(jw) = 100(\frac{1}{0.43 + 10.6185j})^2$
-
-Let $z = 0.43 + 10.6185j$
-
-$|z| = \sqrt{(0.43)^2 + (10.6185)^2}$
-
-$|z| = 10.6272$
-
-$|F(jw)| = 100(\frac{1}{10.6272})^2$
-
-$|F(jw)| = 0.885$
 
 
 # Question 6
+![[Pasted image 20241013140110.png]]
 
 $w = 2\pi f$
 
