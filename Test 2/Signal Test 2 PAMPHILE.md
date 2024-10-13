@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Question 1
 
-![[Pasted image 20241012123030.png]]
+# Question 1
+![Pasted image 20241012121147](https://github.com/user-attachments/assets/6578c816-ae59-4605-90c0-6c15b2ad4d5a)
 
 $$\begin{align}
 |f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
