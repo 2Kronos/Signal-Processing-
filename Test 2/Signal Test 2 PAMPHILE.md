@@ -4,12 +4,10 @@
 ![[Pasted image 20241012123030.png]]
 $$
 \begin{align}
-
 |f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
 f(t) =te^{-at} \leftrightarrow F(jw) =(\frac{1}{a+jw})^2      \\\\
 w =2\pi f \\\\
 w= 2(\pi)(1.69) =10.6185 \\\\
-
 f(t) = 100te^{-043t}.\\ \\
 F(jw)= 100(\frac{1}{0.43+jw})^2\\\\
 F(jw)= 100(\frac{1}{0.43+10.6185j})^2\\\\
@@ -18,7 +16,6 @@ let\ z = 0.43 +10.6185j \\\\\
 |z| = 10.6272\\\\
 |F(jw)|= 100(\frac{1}{10.6272})^2\\\\
 |F(jw)|=0.885 \\\\
-
 \end{align}
 $$
 # Question 2 
@@ -64,7 +61,7 @@ $V_L = V_{in} \times \frac{X_L}{Z}$
 $V_C = V_{in} \times \frac{X_C}{Z}$
 
 # Question 5
->>>>>>> 2ff2a710e9f742d82fce4e0b068cbc5448f47344
+
 
 $a = 0.75$
 
@@ -143,7 +140,7 @@ $y(n) = 4.6388$
 $B_{wf} = \frac{1}{T} = \frac{1}{16.3us} = 61.3kHz$
 
 <<<<<<< HEAD
-=======
+
 # Question 1
 
 $|f(jw)| = \sqrt{(Re[F(jw)])^2 + (Im[F(jw)])^2}$
@@ -169,7 +166,7 @@ $|z| = 10.6272$
 $|F(jw)| = 100(\frac{1}{10.6272})^2$
 
 $|F(jw)| = 0.885$
->>>>>>> 2ff2a710e9f742d82fce4e0b068cbc5448f47344
+
 
 # Question 6
 
