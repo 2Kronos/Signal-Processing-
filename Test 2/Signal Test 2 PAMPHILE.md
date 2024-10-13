@@ -1,7 +1,8 @@
-![[Pasted image 20240930235508.png]]
-![[Pasted image 20240930212803.png]]
+![image](https://github.com/user-attachments/assets/fdeaaa92-54c6-4c31-8ad1-17310017d1c1)
+![image](https://github.com/user-attachments/assets/d3306052-1ae8-4e24-b67f-e740b4d6fe45)
 
 $$
+
 \begin{align}
 a\ =\ 0.75\\ \\
 
