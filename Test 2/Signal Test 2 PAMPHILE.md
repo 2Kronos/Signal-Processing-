@@ -2,7 +2,6 @@
 ![image](https://github.com/user-attachments/assets/d3306052-1ae8-4e24-b67f-e740b4d6fe45)
 
 $$
-
 \begin{align}
 a\ =\ 0.75\\ \\
 
