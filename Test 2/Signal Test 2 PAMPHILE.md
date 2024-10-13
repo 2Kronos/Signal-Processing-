@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# Question 1
 
-![[Pasted image 20241012123030.png]]
+# Question 1
 $$\begin{align}
 |f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
 f(t) =te^{-at} \leftrightarrow F(jw) =(\frac{1}{a+jw})^2      \\\\
