@@ -1,60 +1,37 @@
+# Question 1
 
-![[Pasted image 20240930235508.png]]
-![[Pasted image 20241012193655.png]]
-
-# Voltage divider rule
-$X_L =wL$
-$X_c = \frac{1}{wc}$
-$X_c =2\pi f$
-## RC circuit
-
+![[Pasted image 20241012123030.png]]
 $$
 \begin{align}
-V_R =V_{in} \times \frac{R}{\sqrt{R^2+X_L^2}}
-\end{align}
-$$
-$$
-\begin{align}
-V_C =V_{in} \times \frac{X_c}{\sqrt{R^2+X_C^2}}
-\end{align}
-$$
-# RL Circuit
 
-$$
-\begin{align}
-V_R =V_{in} \times \frac{R}{\sqrt{R^2+X_L^2}}
+|f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
+f(t) =te^{-at} \leftrightarrow F(jw) =(\frac{1}{a+jw})^2      \\\\
+w =2\pi f \\\\
+w= 2(\pi)(1.69) =10.6185 \\\\
+
+f(t) = 100te^{-043t}.\\ \\
+F(jw)= 100(\frac{1}{0.43+jw})^2\\\\
+F(jw)= 100(\frac{1}{0.43+10.6185j})^2\\\\
+let\ z = 0.43 +10.6185j \\\\\
+|z| = \sqrt{(0.43)^2+(10.6185)^2}\\\\
+|z| = 10.6272\\\\
+|F(jw)|= 100(\frac{1}{10.6272})^2\\\\
+|F(jw)|=0.885 \\\\
+
 \end{align}
 $$
-$$
-\begin{align}
-V_L =V_{in} \times \frac{X_L}{\sqrt{R^2+X_L^2}}
-\end{align}
-$$
-# RLC Circuit
+# Question 2 
+
+![[Pasted image 20241012121147.png]]
 
 $$
-Z =\sqrt{R^2+(X_L-x_c)^2}
-$$
-$$
 \begin{align}
-V_R =V_{in} \times \frac{R}{Z}
+B_{wf} = \frac{1}{T}= \frac{1}{16.3us}=61.3KHZ
 \end{align}
 $$
-$$
-\begin{align}
-V_L =V_{in} \times \frac{X_L}{Z}
-\end{align}
-$$
-$$
-\begin{align}
-V_C =V_{in} \times \frac{X_C}{Z}
-\end{align}
-$$
+
 
 # Question 5
-![[Pasted image 20240930212803.png]]
-=======
-![image](https://github.com/user-attachments/assets/fdeaaa92-54c6-4c31-8ad1-17310017d1c1)
 ![image](https://github.com/user-attachments/assets/d3306052-1ae8-4e24-b67f-e740b4d6fe45)
 
 $$
@@ -139,37 +116,6 @@ y(n)\ =\ 4.6388\\\\
 \end {align}
 $$
 
-# Question 2 
-
-![[Pasted image 20241012121147.png]]
-
-$$
-\begin{align}
-B_{wf} = \frac{1}{T}= \frac{1}{16.3us}=61.3KHZ
-\end{align}
-$$
-# Question 1
-
-![[Pasted image 20241012123030.png]]
-$$
-\begin{align}
-
-|f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
-f(t) =te^{-at} \leftrightarrow F(jw) =(\frac{1}{a+jw})^2      \\\\
-w =2\pi f \\\\
-w= 2(\pi)(1.69) =10.6185 \\\\
-
-f(t) = 100te^{-043t}.\\ \\
-F(jw)= 100(\frac{1}{0.43+jw})^2\\\\
-F(jw)= 100(\frac{1}{0.43+10.6185j})^2\\\\
-let\ z = 0.43 +10.6185j \\\\\
-|z| = \sqrt{(0.43)^2+(10.6185)^2}\\\\
-|z| = 10.6272\\\\
-|F(jw)|= 100(\frac{1}{10.6272})^2\\\\
-|F(jw)|=0.885 \\\\
-
-\end{align}
-$$
 
 # Question 6
 
