@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ![[Pasted image 20241014074238.png]]
 
@@ -57,8 +58,10 @@ V_C =V_{in} \times \frac{X_C}{Z}
 $$
 ---
 # Question 1
+=======
+>>>>>>> bfd6cfd4ac1871bb90df1245e1a5e399fb22b959
 
-![[Pasted image 20241012123030.png]]
+# Question 1
 $$\begin{align}
 |f(jw)|\ =\sqrt{(Re[F(jw)])^2+(Im[F(jw)]^2}\\ \\
 f(t) =te^{-at} \leftrightarrow F(jw) =(\frac{1}{a+jw})^2      \\\\
