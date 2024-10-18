@@ -1,8 +1,8 @@
 # Question 1
 ![image](https://github.com/user-attachments/assets/f7438664-e168-43d9-bebe-cb9106af5342)
 
-**Answer = 20.589 $\pm$ 0.002 
-Marks: 14
+**Answer = 20.589 $\pm$ 0.002** 
+**Marks: 14**
 
 Transfer function 
 
@@ -20,11 +20,11 @@ Let s = -0.2
 
 $$4= B(-0.2+0.25)$$
 $$80=B$$
-Let s=-0.25
+**Let s=-0.25**
 $$4= C(-0.25+0.2)^{2}$$
 $$\frac{4}{(\frac{1}{400})} = C$$
 $$1600 =C$$
-Let s =0
+**Let s =0**
 $$4=A(0+0.2)(0+0.25)+B(0+0.25)+C(0+0.2)^{2}$$
 $$4= A(0.05)+B(0.25)+C(0.2)^{2}$$
 $$4= A(0.05)+80(0.25)+1600(0.2)^{2}$$
@@ -40,7 +40,7 @@ $$V_{out}=20.589$$
 # Question 2
 ![[Screenshot 2024-10-18 230330.png]]
 **Marks:10**
-**Answer:-0.784$\pm$ 0.002**
+**Answer:-0.784 $\pm$ 0.002**
 
 
 
@@ -49,7 +49,7 @@ $$V_{out}=20.589$$
 
 ![[Screenshot 2024-10-18 230817.png]]
 **Marks:14**
-**Answer:14.798$\pm$ 0.002
+**Answer:14.798 $\pm$ 0.002
 
 
 
@@ -58,9 +58,9 @@ $$V_{out}=20.589$$
 
 ![[Screenshot 2024-10-18 231140.png]]
 **Marks:10**
-**Answer:42.693$\pm$ 0.002
+**Answer:42.693 $\pm$ 0.002
 
 # Question 5
 ![[Screenshot 2024-10-18 231216.png]]
 **Marks:12**
-**Answer:1.321$\pm$ 0.002
+**Answer:1.321 $\pm$ 0.002**
