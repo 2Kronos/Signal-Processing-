@@ -1,4 +1,61 @@
-<<<<<<< HEAD
+
+![[Pasted image 20241014074238.png]]
+
+![[Pasted image 20241013152956.png]]
+
+
+![[Pasted image 20240930235508.png]]
+--------------------------------------------------------------------------------------
+# Voltage divider rule
+$X_L =wL$
+$X_c = \frac{1}{wc}$
+$X_c =2\pi f$
+## RC circuit
+
+$$
+\begin{align}
+V_R =V_{in} \times \frac{R}{\sqrt{R^2+X_L^2}}
+\end{align}
+$$
+$$
+\begin{align}
+V_C =V_{in} \times \frac{X_c}{\sqrt{R^2+X_C^2}}
+\end{align}
+$$
+# RL Circuit
+
+$$
+\begin{align}
+V_R =V_{in} \times \frac{R}{\sqrt{R^2+X_L^2}}
+\end{align}
+$$
+$$
+\begin{align}
+V_L =V_{in} \times \frac{X_L}{\sqrt{R^2+X_L^2}}
+\end{align}
+$$
+
+# RLC Circuit
+
+$$
+Z =\sqrt{R^2+(X_L-x_c)^2}
+$$
+$$
+\begin{align}
+V_R =V_{in} \times \frac{R}{Z}
+\end{align}
+$$
+$$
+\begin{align}
+V_L =V_{in} \times \frac{X_L}{Z}
+\end{align}
+$$
+$$
+\begin{align}
+V_C =V_{in} \times \frac{X_C}{Z}
+\end{align}
+$$
+---
 # Question 1
 
 ![[Pasted image 20241012123030.png]]
@@ -16,6 +73,7 @@ let\ z = 0.43 +10.6185j \\\\\
 |F(jw)|= 100(\frac{1}{10.6272})^2\\\\
 |F(jw)|=0.885 \\\\
 \end{align}$$
+---
 # Question 2 
 
 ![[Pasted image 20241012121147.png]]
@@ -25,12 +83,16 @@ $$
 B_{wf} = \frac{1}{T}= \frac{1}{16.3us}=61.3KHZ
 \end{align}
 $$
+---
+# Question 3
+![[Pasted image 20241013155407.png]]
 
-
+![[Pasted image 20241013155603.png]]
+![[Calcu 2 1.jpg]]
+![[cal 3.jpg]]
+---
 # Question 5
 ![image](https://github.com/user-attachments/assets/d3306052-1ae8-4e24-b67f-e740b4d6fe45)
-
-# Question 5
 
 
 $a = 0.75$
@@ -107,9 +169,9 @@ $y(n) = 4.6388$
 
 
 
-
+---
 # Question 6
-
+![[Pasted image 20241013140521.png]]
 
 $w = 2\pi f$
 
@@ -128,31 +190,56 @@ $V_C = V_{in} \times \frac{X_C}{\sqrt{R^2 + X_C^2}}$
 $V_C = 37 \times \frac{3.3934}{\sqrt{3^2 + (3.3934)^2}}$
 
 $V_C = 27.720$
-
+---
 # Question 7
+![[Pasted image 20241013140621.png]]
+$$\begin{align}
+V_{in} = tu(t) \\ \\
+V_R = IR \\\\
+V_C = \frac{1}{C} \int^{t}_{0} i(t) \\\\
+V_{in} = IR + \frac{1}{C} \int^{t}_{0} i(t) \\\\
+L(tu(t)) = L(i(t)) + L\left(\frac{1}{C} \int^{t}_{0} i(t)\right) \\\\
+\frac{1}{s^2} = I(s)R + \frac{1}{C} \times \frac{I(s)}{s} \\\\
+\text{Pull out } I(s) \\\\
+\frac{1}{s^2} = I(s)(R + \frac{1}{Cs}) \\\\
+I(s) = \frac{1}{s^2} \times \frac{Cs}{CsR + 1} \\\\
+I(s) = \frac{C}{s(CsR + 1)} \\\\
+V_{out} = \frac{1}{Cs}I(s) \\\\
+V_{out} = \frac{1}{sC} \times \frac{C}{s(CsR + 1)} \\\\
+V_{out} = \frac{1}{s^2(CsR + 1)}\\\\
+R=1\\\\
+C=5\\\\
+V_{out} = \frac{1}{s^2(s5 + 1)}\\\\
+\text{pull out 5}\\\\
+V_{out} = \frac{1}{s^25(s + \frac{1}{5})}\\\\
+V_{out} = \frac{\frac{1}{5}}{s^2(s + \frac{1}{5})}\\\\
+V_{out} = \frac{\frac{1}{5}}{s^2(s + \frac{1}{5})} = \frac{A}{s}+\frac{B}{s^2}+\frac{C}{s+\frac{1}{5}}\\\\
 
-$V_{in} = tu(t)$
+s^2(s + \frac{1}{5})\times \frac{\frac{1}{5}}{s^2(s + \frac{1}{5})} = (\frac{A}{s}+\frac{B}{s^2}+\frac{C}{s+\frac{1}{5}}) \times^2 (s + \frac{1}{5})\\\\
 
-$V_R = IR$
+\frac{1}{5}=A[s(s+\frac{1}{5})] +B[s+\frac{1}{5}] +C[s^2]\\\\
 
-$V_C = \frac{1}{C}\int^{t}_{0} i(t)$
+\text{let s = 0}\\\\
+\frac{1}{5}=B[\frac{1}{5}]\\\\
+1=B\\\\
+\text{let s} =-\frac{1}{5}\\\\
+\frac{1}{5} =C[(\frac{1}{25}]\\\\
+\text{5 =C}\\\\
 
-$V_{in} = IR + \frac{1}{C}\int^{t}_{0} i(t)$
+\text{let s = 1}\\\\
+\frac{1}{5}= 1.2A+1.2 +5\\\\
+\frac{1}{5}-1.2-5=1.2A\\\\
+\frac{-6}{1.2}=\frac{1.2A}{1.2}\\\\
+-5=A\\\\
+\frac{A}{s}+\frac{B}{s^2}+\frac{C}{s+\frac{1}{5}}\\\\
+-\frac{5}{s}+\frac{1}{s^2}+\frac{5}{s+\frac{1}{5}}\\\\
+-5\frac{1}{s}+\frac{1}{s^2}+5\frac{1}{s+\frac{1}{5}}\\\\
 
-$L(tu(t)) = L(i(t)) + L\left(\frac{1}{C}\int^{t}_{0} i(t)\right)$
+-5u(t)+t+5e^{-\frac{1}{5}t}\\\\
 
-$\frac{1}{s^2} = I(s)R + \frac{1}{C} \times \frac{I(s)}{s}$
-
-Pull out $I(s)$
-
-$\frac{1}{s^2} = I(s)(R + \frac{1}{Cs})$
-
-$I(s) = \frac{1}{s^2} \times \frac{Cs}{CsR + 1}$
-
-$I(s) = \frac{C}{s^2(CR + 1)}$
-
-$V_{out} = \frac{1}{C}I(s)$
-
-$V_{out} = \frac{1}{C} \times \frac{C}{s^2(CR + 1)}$
-
-$V_{out} = \frac{1}{s^2(CR + 1)}$
+u(t)\\\\
+u(4)=1\\\\
+u(t)=1\\\\
+-5u(2.8)+2.8+5e^{-\frac{1}{5}(2.8)}=0.656\\\\
+	
+\end{align}$$
